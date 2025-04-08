@@ -1,9 +1,9 @@
 <?php
 // Credentials from Safaricom Daraja API
-$consumerKey = "YOUR_CONSUMER_KEY";
-$consumerSecret = "YOUR_CONSUMER_SECRET";
-$businessShortCode = "YOUR_PAYBILL_OR_TILL_NUMBER";
-$lipaNaMpesaPasskey = "YOUR_LIPA_NA_MPESA_PASSKEY";
+$consumerKey = "7GwdVVKtmQ4nIf7ylTigS2GEfA1ZhxANXjgAoIB0IhNeJtRS";
+$consumerSecret = "jtlxnz7FmiTcH6fXAzwUaL0N92rSrQXiIs7T5U1sMdgxqAdO06c90pJlkaRWNY6l";
+$businessShortCode = "3393282";
+$lipaNaMpesaPasskey = "Os6VCCnGofAz84i7XSLdUETa/oLB80AYh1JmeXHC6Ig8kxMS/cOHgLW+CBWZWTZ2+u+9zlRml/r+IeaxQGoaUbbPs98j/BF7C8nyxdrw4jauAkprb+Uj8grrR2bZEqP9DqL/RFQQcgoUxWjHN5kNS1nnI/O4rZ+3zgCZ0I2gbIqCeeGix5uOcBvc9AqZ7u+Jc77X6Sq+lo2PmhDJ51EVFiPiRWq2HVZGbIx3Jv32vyh7Q1AbdR2mfe+l4XJyySed//IofupIhNevUoDT8WC50QRbCSf6gLkDYtJOs5CLDR4dCsNvMbu7ePVSX5WFYBsQOE/MZP5pW0M+kYlyLQu44g==";
 $callbackURL = "https://yourwebsite.com/callback.php";
 
 // Get user input
