@@ -13,7 +13,7 @@ $timestamp = date("YmdHis");
 $password = base64_encode($businessShortCode . $lipaNaMpesaPasskey . $timestamp);
 
 // Generate Access Token
-$accessTokenUrl = "https://api.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials";
+$accessTokenUrl = "https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials";
 $credentials = base64_encode("$consumerKey:$consumerSecret");
 
 $ch = curl_init($accessTokenUrl);
